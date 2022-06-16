@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* border: 2px solid red; */
+    font-family: 'Quicksand', 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600&family=Roboto:wght@400;700&display=swap');
+
+
+.calculator-title{
+    text-align: center;
+}
+
+/* .result{
+    display: flex;
+    justify-content: center;
+} */
+
+.calculator-main-body{
+    display: flex;
+    margin: 0 auto;
+    height: 450px;
+    width: 280px;
+    gap: 14px;
+    justify-content: center;
+    border-radius: 25px;
+    flex-wrap:wrap;
+    align-items:center;
+    background-color: #212121;
+    box-shadow: 5px 5px 12px rgb(0 0 0 / 50%);
+    padding: 5px;
+}
+
+.calc-button{
+    display: flex;
+    font-weight: 700;
+    color: #DFDFDF;
+    width:50px;
+    height:50px;
+    border-radius: 25px;
+    justify-content: center;
+    align-items: center;
+    background-color: #616161;
+    cursor:pointer;
+    transition:all .15s ease-in-out;
+}
+
+.calc-button:hover{
+    background-color: red;
+}
+
+.calc-button:active{
+    transform: translateY(4px);
+}
+
+
+
+.calc-button-equal{
+    display: flex;
+    font-weight: 700;
+    width:110px;
+    height:50px;
+    border-radius: 25px;
+    justify-content: center;
+    align-items: center;
+    background-color: darkorange;
+    cursor:pointer;
+    transition:all .15s ease-in-out;
+}
+
+.calc-button-equal:hover{
+    background-color: rgb(222, 124, 4);
+}
+
+.calc-button-equal:active{
+    transform: translateY(4px);
+}
+
+
+.display{
+    display:flex;
+    width: 240px;
+    height: 60px;
+    margin: 0 auto;
+    background-color: aliceblue;
+    border-radius: 35px;
+    margin-top:10px;
+    padding:5px;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.op-button{
+    display: flex;
+    font-weight: 700;
+    color: #DFDFDF;
+    width:50px;
+    height:50px;
+    border-radius: 25px;
+    justify-content: center;
+    align-items: center;
+    background-color: #616161;
+    cursor:pointer;
+    transition:all .15s ease-in-out;
+}
+
+.op-button:hover{
+    background-color: rgb(47, 207, 207);
+}
+
+.op-button:active{
+    transform:translateY(4px);
+}
